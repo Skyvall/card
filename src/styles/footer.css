@@ -1,0 +1,25 @@
+.hero {
+  display: grid;
+  grid-template-columns: 140px 1fr 280px;
+  min-height: 160px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}

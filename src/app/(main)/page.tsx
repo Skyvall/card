@@ -1,6 +1,7 @@
-import Hero from "../sections/hero";
-import About from "../sections/about";
-import Portfolio from "../sections/portfolio";
+import Hero from "./sections/hero";
+import About from "./sections/about";
+import Portfolio from "./sections/portfolio";
+import Kontakt from "./sections/kontakt";
 
 export default function Page() {
   return (
@@ -8,6 +9,7 @@ export default function Page() {
       <Hero />
       <About />
       <Portfolio />
+      <Kontakt />
     </main>
   );
 }
